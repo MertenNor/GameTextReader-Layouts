@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "layouts": [
+    {
+      "id": "advanced-test",
+      "name": "Advanced Test: Open-World RPG",
+      "game": "Sample Open-World RPG",
+      "category": "Game",
+      "maker": "MertenNor",
+      "version": 5,
+      "downloads": 0,
+      "description": "Test layout (made up). A busy test layout with three tabs, ten boxes, combos, watched spots, translation, voices and Text Rules with patterns.",
+      "screen": {
+        "width": 3440,
+        "height": 1440,
+        "mode": "borderless"
+      },
+      "areas": [
+        {
+          "name": "Speaker Name",
+          "kind": "Read Area",
+          "hotkey": "numpad 6",
+          "region": [
+            800,
+            1040,
+            600,
+            60
+          ],
+          "page": 0
+        },
+        {
+          "name": "Dialogue",
+          "kind": "Read Area",
+          "hotkey": "numpad 5",
+          "region": [
+            800,
+            1100,
+            1840,
+            240
+          ],
+          "page": 0
+        },
+        {
+          "name": "Choices",
+          "kind": "Read Area",
+          "hotkey": "numpad 7",
+          "region": [
+            1400,
+            380,
+            640,
+            420
+          ],
+          "page": 0
+        },
+        {
+          "name": "Quest Title",
+          "kind": "Read Area",
+          "hotkey": "numpad 1",
+          "region": [
+            120,
+            160,
+            900,
+            120
+          ],
+          "page": 1
+        },
+        {
+          "name": "Quest Text",
+          "kind": "Read Area",
+          "hotkey": "numpad 2",
+          "region": [
+            120,
+            300,
+            1100,
+            700
+          ],
+          "page": 1
+        },
+        {
+          "name": "Quest Tracker",
+          "kind": "Read Area",
+          "hotkey": "numpad 3",
+          "region": [
+            2800,
+            200,
+            560,
+            400
+          ],
+          "page": 1
+        },
+        {
+          "name": "Item Name",
+          "kind": "Read Area",
+          "hotkey": "f5",
+          "region": [
+            200,
+            200,
+            700,
+            80
+          ],
+          "page": 2
+        },
+        {
+          "name": "Item Text",
+          "kind": "Read Area",
+          "hotkey": "f6",
+          "region": [
+            200,
+            300,
+            1000,
+            600
+          ],
+          "page": 2
+        },
+        {
+          "name": "Prices",
+          "kind": "Read Area",
+          "hotkey": "f7",
+          "region": [
+            1300,
+            300,
+            500,
+            600
+          ],
+          "page": 2
+        },
+        {
+          "name": "Health and Gold",
+          "kind": "Read Area",
+          "hotkey": "f8",
+          "region": [
+            60,
+            40,
+            600,
+            120
+          ],
+          "page": 2
+        },
+        {
+          "name": "Quick Read Area 1",
+          "kind": "Quick Read Area",
+          "hotkey": "numpad 0",
+          "region": null,
+          "page": 0
+        },
+        {
+          "name": "Clipboard",
+          "kind": "Clipboard",
+          "hotkey": "numpad 4",
+          "region": null,
+          "page": 0
+        }
+      ],
+      "pages": [
+        "Talking",
+        "Quests",
+        "Items and Status"
+      ],
+      "detections": [
+        [
+          1500,
+          1060,
+          200,
+          40
+        ],
+        [
+          1500,
+          120,
+          220,
+          40
+        ],
+        [
+          250,
+          160,
+          200,
+          40
+        ],
+        [
+          70,
+          150,
+          120,
+          30
+        ]
+      ],
+      "detection_names": [
+        "Dialogue Shows",
+        "New Quest",
+        "Item Opened",
+        "Low Health"
+      ],
+      "automations": [
+        "Combo: Read the Quest (hotkey numpad 9)",
+        "Combo: Read an Item (hotkey f9)",
+        "Combo: Read the Status (hotkey f10)",
+        "Detection Area: Dialogue Shows",
+        "Detection Area: New Quest",
+        "Detection Area: Item Opened",
+        "Detection Area: Low Health",
+        "Starts monitoring with openworld.exe"
+      ],
+      "translations": [
+        "Dialogue: from Japanese to English"
+      ],
+      "addons": [
+        [
+          "kokoro",
+          "Kokoro"
+        ],
+        [
+          "rapidocr",
+          "RapidOCR"
+        ],
+        [
+          "piper",
+          "Piper"
+        ],
+        [
+          "translator",
+          "Any translator"
+        ]
+      ],
+      "text_rules": [
+        "Text Replacement: 15 rules",
+        "Text Filters: Fix OCR mix-ups, Skip chat names, Skip text already read, Skip gibberish, Read units in full, 7 ignored words"
+      ],
+      "text_rules_detail": {
+        "replacements": [
+          [
+            "\\bx(\\d+)\\b",
+            "times \\1"
+          ],
+          [
+            "(\\d+)\\s*/\\s*(\\d+)",
+            "\\1 of \\2"
+          ],
+          [
+            "\\s*\\[[^\\]]*\\]",
+            ""
+          ],
+          [
+            "\\s*DC:\\s*\\d+\\s*(Failure|Success)",
+            ""
+          ],
+          [
+            "(\\d+)\\s*(?:gp|GP)\\b",
+            "\\1 gold"
+          ],
+          [
+            "\\bLv\\.?\\s*(\\d+)",
+            "level \\1"
+          ],
+          [
+            "\\b(\\d{1,2}):(\\d{2})\\s*(AM|PM)\\b",
+            "\\1 \\2 \\3"
+          ],
+          [
+            "(?i)\\b(hp|mp|xp)\\s*\\+\\s*(\\d+)",
+            "plus \\2 \\1"
+          ],
+          [
+            "ATK",
+            "attack"
+          ],
+          [
+            "DEF",
+            "defense"
+          ],
+          [
+            "STR",
+            "strength"
+          ],
+          [
+            "lvl",
+            "level"
+          ],
+          [
+            "What follows \"HP\" changes",
+            "Is read again"
+          ],
+          [
+            "What follows \"Gold\" changes",
+            "Is read again"
+          ],
+          [
+            "What follows \"Quest:\" changes",
+            "Is read again"
+          ]
+        ],
+        "ignored_words": [
+          "Press",
+          "Skip",
+          "Auto",
+          "Save",
+          "Load",
+          "Options",
+          "Quit"
+        ],
+        "filters": [
+          "Fix OCR mix-ups",
+          "Skip chat names",
+          "Skip text already read",
+          "Skip gibberish",
+          "Read units in full"
+        ]
+      },
+      "text_rules_note": "Patterns read stats and prices as words (x3 as times 3, 45/100 as 45 of 100, 250 gp as 250 gold), skip tags in [square brackets] and dice results, and two rules say when your health or gold changes and when the quest text does.",
+      "automations_note": "Combos read a quest, an item or the status in one press, and the status again every 30 seconds. Four watched spots read a new line of dialogue, a new quest, an opened item and low health by themselves. Monitoring starts when the game does.",
+      "uses": [
+        "Voice: Kokoro: Heart",
+        "Voice: Piper: Amy",
+        "OCR engine: rapid_ocr",
+        "Any translator"
+      ],
+      "tags": [
+        "10 Read Areas",
+        "1 Quick Read Area",
+        "Clipboard",
+        "3 Combos",
+        "4 Detection Areas",
+        "Auto Monitoring",
+        "Translate",
+        "Text Replacement"
+      ],
+      "file": "layouts/game/advanced_test.json",
+      "sha256": "b09fc450a7c4f49732f6e44c5f12a79c26b8ba34efa049e5645d11c7e8d859b3",
+      "added": "2026-11-07"
+    }
+  ]
+}

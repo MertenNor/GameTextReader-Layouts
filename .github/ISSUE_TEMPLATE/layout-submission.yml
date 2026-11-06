@@ -1,0 +1,56 @@
+name: Layout submission
+description: Send a layout for review
+title: "Layout: "
+labels: ["layout submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name of the layout
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game or program
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: What it is for
+      options:
+        - Game
+        - Program
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version (a number)
+      value: "1"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Is this new, or an update?
+      options:
+        - A new layout
+        - Update of a layout I shared before
+    validations:
+      required: true
+  - type: input
+    id: resolution
+    attributes:
+      label: Screen resolution and mode the game ran in (for example 1920x1080, windowed)
+    validations:
+      required: true
+  - type: textarea
+    id: file
+    attributes:
+      label: Layout file
+      description: Drag the layout file (the .txt that Submit a Layout made) into this box.
+    validations:
+      required: true
