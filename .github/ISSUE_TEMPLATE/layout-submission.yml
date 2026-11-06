@@ -15,14 +15,10 @@ body:
       label: Game or program
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: category
     attributes:
-      label: What it is for
-      options:
-        - Game
-        - Program
-        - Other
+      label: What it is for (Game, Program or Other)
     validations:
       required: true
   - type: input
@@ -32,13 +28,10 @@ body:
       value: "1"
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: kind
     attributes:
-      label: Is this new, or an update?
-      options:
-        - A new layout
-        - Update of a layout I shared before
+      label: Is this new, or an update of one you shared before?
     validations:
       required: true
   - type: input
