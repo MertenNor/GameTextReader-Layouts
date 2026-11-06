@@ -658,8 +658,8 @@
         "region": [
           1500,
           1060,
-          200,
-          40
+          1700,
+          1100
         ],
         "picture": "",
         "target": "Dialogue",
@@ -671,8 +671,8 @@
         "region": [
           1500,
           120,
-          220,
-          40
+          1720,
+          160
         ],
         "picture": "",
         "target": "Quest Title",
@@ -684,8 +684,8 @@
         "region": [
           250,
           160,
-          200,
-          40
+          450,
+          200
         ],
         "picture": "",
         "target": "Item Name",
@@ -697,8 +697,8 @@
         "region": [
           70,
           150,
-          120,
-          30
+          190,
+          180
         ],
         "picture": "",
         "target": "Health and Gold",
