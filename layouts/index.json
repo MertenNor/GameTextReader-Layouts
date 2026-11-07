@@ -2,12 +2,26 @@
   "version": 1,
   "layouts": [
     {
+      "versions": [
+        {
+          "version": 6,
+          "file": "layouts/game/advanced_test_open_world_rpg_v6.json",
+          "sha256": "bea1f0c6ae52ecbe4215fcb056870d29fe4f6e83959beecabcbc1f27aa254f59",
+          "added": "2026-11-08"
+        },
+        {
+          "version": 5,
+          "file": "layouts/game/advanced_test.json",
+          "sha256": "fdf32cdfd11f5e479ca6950717cca58c06b008d08c774f23bdfaf4215023a610",
+          "added": "2026-11-07"
+        }
+      ],
       "id": "advanced-test",
       "name": "Advanced Test: Open-World RPG",
       "game": "Sample Open-World RPG",
       "category": "Game",
       "maker": "MertenNor",
-      "version": 5,
+      "version": 6,
       "downloads": 0,
       "description": "Test layout (made up). A busy test layout with three tabs, ten boxes, combos, watched spots, translation, voices and Text Rules with patterns.",
       "screen": {
@@ -191,12 +205,10 @@
       "automations": [
         "Combo: Read the Quest (hotkey numpad 9)",
         "Combo: Read an Item (hotkey f9)",
-        "Combo: Read the Status (hotkey f10)",
         "Detection Area: Dialogue Shows",
         "Detection Area: New Quest",
         "Detection Area: Item Opened",
-        "Detection Area: Low Health",
-        "Starts monitoring with openworld.exe"
+        "Detection Area: Low Health"
       ],
       "translations": [
         "Dialogue: from Japanese to English"
@@ -315,14 +327,13 @@
         "10 Read Areas",
         "1 Quick Read Area",
         "Clipboard",
-        "3 Combos",
+        "2 Combos",
         "4 Detection Areas",
-        "Auto Monitoring",
         "Translate",
         "Text Replacement"
       ],
-      "file": "layouts/game/advanced_test.json",
-      "sha256": "fdf32cdfd11f5e479ca6950717cca58c06b008d08c774f23bdfaf4215023a610",
+      "file": "layouts/game/advanced_test_open_world_rpg_v6.json",
+      "sha256": "bea1f0c6ae52ecbe4215fcb056870d29fe4f6e83959beecabcbc1f27aa254f59",
       "added": "2026-11-07"
     }
   ]
