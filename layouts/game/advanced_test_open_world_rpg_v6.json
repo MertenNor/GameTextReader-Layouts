@@ -1,0 +1,704 @@
+{
+  "format": "gametextreader-pyside",
+  "version": 2,
+  "pages": [
+    "Talking",
+    "Quests",
+    "Items and Status"
+  ],
+  "areas": [
+    {
+      "name": "Speaker Name",
+      "area_type": "read_area",
+      "hotkey": "numpad 6",
+      "region": [
+        800,
+        1040,
+        600,
+        60
+      ],
+      "voice": "Kokoro: Heart",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "rapid_ocr",
+      "page": 0
+    },
+    {
+      "name": "Dialogue",
+      "area_type": "read_area",
+      "hotkey": "numpad 5",
+      "region": [
+        800,
+        1100,
+        1840,
+        240
+      ],
+      "voice": "Piper: Amy",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": true,
+      "translate_from": "ja",
+      "translate_to": "en",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "rapid_ocr",
+      "page": 0
+    },
+    {
+      "name": "Choices",
+      "area_type": "read_area",
+      "hotkey": "numpad 7",
+      "region": [
+        1400,
+        380,
+        640,
+        420
+      ],
+      "voice": "Piper: Amy",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "rapid_ocr",
+      "page": 0
+    },
+    {
+      "name": "Quest Title",
+      "area_type": "read_area",
+      "hotkey": "numpad 1",
+      "region": [
+        120,
+        160,
+        900,
+        120
+      ],
+      "voice": "Piper: Amy",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "",
+      "page": 1
+    },
+    {
+      "name": "Quest Text",
+      "area_type": "read_area",
+      "hotkey": "numpad 2",
+      "region": [
+        120,
+        300,
+        1100,
+        700
+      ],
+      "voice": "Piper: Amy",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "",
+      "page": 1
+    },
+    {
+      "name": "Quest Tracker",
+      "area_type": "read_area",
+      "hotkey": "numpad 3",
+      "region": [
+        2800,
+        200,
+        560,
+        400
+      ],
+      "voice": "Piper: Amy",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "",
+      "page": 1
+    },
+    {
+      "name": "Item Name",
+      "area_type": "read_area",
+      "hotkey": "f5",
+      "region": [
+        200,
+        200,
+        700,
+        80
+      ],
+      "voice": "Kokoro: Heart",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "",
+      "page": 2
+    },
+    {
+      "name": "Item Text",
+      "area_type": "read_area",
+      "hotkey": "f6",
+      "region": [
+        200,
+        300,
+        1000,
+        600
+      ],
+      "voice": "Kokoro: Heart",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "",
+      "page": 2
+    },
+    {
+      "name": "Prices",
+      "area_type": "read_area",
+      "hotkey": "f7",
+      "region": [
+        1300,
+        300,
+        500,
+        600
+      ],
+      "voice": "Kokoro: Heart",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "",
+      "page": 2
+    },
+    {
+      "name": "Health and Gold",
+      "area_type": "read_area",
+      "hotkey": "f8",
+      "region": [
+        60,
+        40,
+        600,
+        120
+      ],
+      "voice": "Piper: Amy",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "",
+      "page": 2
+    },
+    {
+      "name": "Quick Read Area 1",
+      "area_type": "quick_read",
+      "hotkey": "numpad 0",
+      "region": null,
+      "voice": "Piper: Amy",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "",
+      "page": 0
+    },
+    {
+      "name": "Clipboard",
+      "area_type": "quick_read",
+      "hotkey": "numpad 4",
+      "region": null,
+      "voice": null,
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": true,
+      "ocr_engine": "",
+      "page": 0
+    }
+  ],
+  "text_replacement": {
+    "rules": [
+      {
+        "find": "\\bx(\\d+)\\b",
+        "replace": "times \\1",
+        "regex": true,
+        "sample": "Healing Potion x3"
+      },
+      {
+        "find": "(\\d+)\\s*/\\s*(\\d+)",
+        "replace": "\\1 of \\2",
+        "regex": true,
+        "sample": "Health 45/100"
+      },
+      {
+        "find": "\\s*\\[[^\\]]*\\]",
+        "replace": "",
+        "regex": true,
+        "sample": "Welcome back [ID 2231] traveler"
+      },
+      {
+        "find": "\\s*DC:\\s*\\d+\\s*(Failure|Success)",
+        "replace": "",
+        "regex": true,
+        "sample": "You open the door. DC: 45 Failure"
+      },
+      {
+        "find": "(\\d+)\\s*(?:gp|GP)\\b",
+        "replace": "\\1 gold",
+        "regex": true,
+        "sample": "Sword 250 gp"
+      },
+      {
+        "find": "\\bLv\\.?\\s*(\\d+)",
+        "replace": "level \\1",
+        "regex": true,
+        "sample": "Lv. 12 Goblin"
+      },
+      {
+        "find": "\\b(\\d{1,2}):(\\d{2})\\s*(AM|PM)\\b",
+        "replace": "\\1 \\2 \\3",
+        "regex": true,
+        "sample": "Shop opens at 9:30 AM"
+      },
+      {
+        "find": "(?i)\\b(hp|mp|xp)\\s*\\+\\s*(\\d+)",
+        "replace": "plus \\2 \\1",
+        "regex": true,
+        "sample": "HP +20"
+      },
+      {
+        "find": "ATK",
+        "replace": "attack"
+      },
+      {
+        "find": "DEF",
+        "replace": "defense"
+      },
+      {
+        "find": "STR",
+        "replace": "strength"
+      },
+      {
+        "find": "lvl",
+        "replace": "level"
+      },
+      {
+        "find": "HP",
+        "change": "number",
+        "say_amount": true
+      },
+      {
+        "find": "Gold",
+        "change": "number",
+        "say_amount": true
+      },
+      {
+        "find": "Quest:",
+        "change": "text",
+        "changed_text": "Changed:"
+      }
+    ],
+    "enabled": true
+  },
+  "text_filters": {
+    "char_normalization": true,
+    "ignore_already_read": true,
+    "ignore_usernames": true,
+    "ignore_gibberish": true,
+    "unit_detection": true,
+    "ignored_words": "Press, Skip, Auto, Save, Load, Options, Quit"
+  },
+  "automations": {
+    "area_combos": [
+      {
+        "name": "Read the Quest",
+        "hotkey": "numpad 9",
+        "enabled": true,
+        "repeat_seconds": 0,
+        "capture_first": false,
+        "steps": [
+          {
+            "kind": "area",
+            "target": "Quest Title"
+          },
+          {
+            "kind": "area",
+            "target": "Quest Text"
+          },
+          {
+            "kind": "area",
+            "target": "Quest Tracker"
+          }
+        ]
+      },
+      {
+        "name": "Read an Item",
+        "hotkey": "f9",
+        "enabled": true,
+        "repeat_seconds": 0,
+        "capture_first": false,
+        "steps": [
+          {
+            "kind": "area",
+            "target": "Item Name"
+          },
+          {
+            "kind": "area",
+            "target": "Item Text"
+          },
+          {
+            "kind": "area",
+            "target": "Prices"
+          }
+        ]
+      }
+    ],
+    "detection_areas": [
+      {
+        "name": "Dialogue Shows",
+        "region": [
+          1500,
+          1060,
+          1700,
+          1100
+        ],
+        "picture": "",
+        "target": "Dialogue",
+        "match_percent": 90,
+        "wait_ms": 0
+      },
+      {
+        "name": "New Quest",
+        "region": [
+          1500,
+          120,
+          1720,
+          160
+        ],
+        "picture": "",
+        "target": "Quest Title",
+        "match_percent": 90,
+        "wait_ms": 0
+      },
+      {
+        "name": "Item Opened",
+        "region": [
+          250,
+          160,
+          450,
+          200
+        ],
+        "picture": "",
+        "target": "Item Name",
+        "match_percent": 90,
+        "wait_ms": 0
+      },
+      {
+        "name": "Low Health",
+        "region": [
+          70,
+          150,
+          190,
+          180
+        ],
+        "picture": "",
+        "target": "Health and Gold",
+        "match_percent": 90,
+        "wait_ms": 0
+      }
+    ],
+    "auto_monitor": false,
+    "auto_monitor_program": ""
+  },
+  "screen": {
+    "width": 3440,
+    "height": 1440,
+    "mode": "borderless"
+  }
+}
