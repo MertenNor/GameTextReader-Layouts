@@ -10,12 +10,6 @@ body:
     validations:
       required: true
   - type: input
-    id: game
-    attributes:
-      label: Game or program
-    validations:
-      required: true
-  - type: input
     id: category
     attributes:
       label: What it is for (Game, Program or Other)
@@ -37,7 +31,7 @@ body:
   - type: input
     id: resolution
     attributes:
-      label: Screen resolution and mode the game ran in (for example 1920x1080, windowed)
+      label: Screen resolution (for example 1920x1080)
     validations:
       required: true
   - type: textarea
