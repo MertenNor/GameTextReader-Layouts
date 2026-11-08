@@ -1,0 +1,154 @@
+{
+  "format": "gametextreader-pyside",
+  "version": 2,
+  "pages": [
+    "Tab 1"
+  ],
+  "areas": [
+    {
+      "name": "Quick Read TEST",
+      "area_type": "quick_read",
+      "hotkey": "num /",
+      "region": null,
+      "voice": "Microsoft Zira Desktop - English (United States)",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": null,
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "",
+      "page": 0
+    },
+    {
+      "name": "Readbox_test",
+      "area_type": "read_area",
+      "hotkey": "mouse x",
+      "region": [
+        1109,
+        439,
+        200,
+        200
+      ],
+      "voice": "Microsoft Zira Desktop - English (United States)",
+      "speed": 100,
+      "freeze_screen": false,
+      "minimize_before_capture": false,
+      "process_freeze_screen": false,
+      "queue_next_scan": false,
+      "preprocess_enabled": false,
+      "processing_settings": {
+        "brightness": 1.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "sharpness": 1.0,
+        "exposure": 1.0,
+        "hue": 0.0,
+        "threshold": 128,
+        "threshold_enabled": false,
+        "color_mask_enabled": false,
+        "color_mask_colors": [],
+        "color_mask_tolerance": 15,
+        "color_mask_background": "#000000",
+        "color_mask_position": "after",
+        "color_mask_invert": false
+      },
+      "box_color": "#56B4E9",
+      "translate": false,
+      "translate_from": "",
+      "translate_to": "",
+      "translate_hint": "",
+      "read_clipboard": false,
+      "ocr_engine": "",
+      "page": 0
+    }
+  ],
+  "text_replacement": {
+    "rules": [],
+    "enabled": true
+  },
+  "text_filters": {
+    "ignored_words": "",
+    "char_normalization": true,
+    "letters_only": false,
+    "letters_keep": "letters",
+    "ignore_usernames": false,
+    "ignore_already_read": false,
+    "ignore_gibberish": false,
+    "unit_detection": false
+  },
+  "automations": {
+    "area_combos": [
+      {
+        "name": "Combo A",
+        "hotkey": null,
+        "steps": [
+          {
+            "kind": "area",
+            "target": "",
+            "wait_ms": 0
+          }
+        ],
+        "enabled": true,
+        "repeat_seconds": 0,
+        "capture_first": false
+      }
+    ],
+    "detection_areas": [
+      {
+        "name": "Detection A",
+        "region": [
+          1327,
+          432,
+          1377,
+          472
+        ],
+        "picture": "iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAIAAAAzED4bAAAGWklEQVR42oVYbZLkOgokQXbV7JxsT7Hn3QPNdpctyP2BLMuye151RIc/JBklkCTCf//zbxEREZIkVTWv+39VzVciAkCGXz7sY/qAiADQ304Tz1l+Ph8Hi0jp88eZAKbbbtk4MvdwXzQH9EXG9Um2C2Eflg9HS8q43LTpPmeypj/sto4Y520C9hMY0uwSAEEKBCKiEOYbKaODxu/1zT2seMPvDlK/lp9/l7fXgWV8TVKhuZMf5w8Pc7CIBAMABOPEx/AaPYVEicI2jYRABCJFFWQcwAhUJ9MTtQOevLY2Xk5XHl/BFEmJxBSsDYXjKciIYM4iQ6SQMTpx3FxERESP6zQR0NHsNCiDMiIucAqgzdcNTmAabKW8Xq/P5+PbZmaMoAjJcvfxSQ4AVKHg4BuSIi4ig38OsAZrpTsUggNF9rcQgQSkrIstZRGS3LfNzNJXZcIWqow4nJUBkNDyFlt9P0gXXPORz1kiTLChompaLISqakvZ6t6Gieij10f26qEzptjEF/fbx6SbX0GgShKmMC2luDRMS77NaHmk8p+M7viNbDLNGv12R05U1MAQBSJchJmMKmhO7Bn0SJ6TEZ11JyvHuQ9jONePUgwQpzOw7xuFR1BIISIZ2YpFMILjosnXt41GDyxSyFBVciT0lmgN/vzDvHN60EMFapqJn8kYZOnmRwRJhY2sxcZwD0HXESJxWH5stoX1XKFPz8iFknIPAHqhLGMlmXjrsSzcY+gxFqfSNCcERUTcfd/3sRhEhKZZozUA+lJ/qbJ/ydx/vB1Xq+H/+/4yqJkN8gmAlI5mMAQCngg/JlEqhCFIeEB6sf+xIJKUAYJiiAhn8BBeZpbUVpgsrCrOIMuhLjqqD7WsBUcGsk7OPel0qMo9RXuxUlV7ldgryX3fVVUgZubuWao13ZwTRiIY2Xo0zX0fJN7dlWeAj47LD6s0heLu7+WXLEtRY4S7FyuM+PPnT1QvZ1kFBBK3QHoUpTOEvGghCKAUdOmWwMYlIiDuvq6rRwRjKSUi6r4nIZQuYduH7/VBMEU9xWXgjSRY3DTLhZwV99Qpy+LuCWp1L2a11oy/8o+lZqLBZsSTIH6sXfcuoY9091xKVUMiwz/XLTfS+5EgOhkK6hxMLbMPqDLgBcmQ8/QjVL++vn7//p17heLrz1fKY0DKVOGrx5TeIwYZf4cFHNu4C0OgET0AofRkOglSQPL9fveV676jMwilKIWM3nKopUFnHrlH91jKaxFNXkjhmXo18eqQEweXkUKCYqY1QgAKgyylrK/CCGO4u39/R60mYgwCSlNRpYKKwOy+SU9POS8iCr3nxKU9FABKYHdn9hOkFVvfr8TP3bdtIwOqEOSYlkHTV0eG7HRwlzoAoIDiLh4Hudu6mVaVSajaslhZJMjgtm/7vh+atTWPZY5ogCN54oJQC8+fu79OMQYdV46ITA0IlnUpywIV38Pd617bGLY63RTEWacyiy5PIEfp4KDhx04rVe+NVMbLFGMUoBSzdbViHlFr9Vp7Uz4gggI7t8Unsuk92RhhycX3U4JJrALgER0RUdalLIupBlndfdt7kCSH9a6rPCqQSf5OnkpDU4Pea19a6V6hDVeKQNVMl3UtpVCk1v3z/V2GiS2CAZKaRyNnMUav/Rdmn6g1bxWgKu+aRoSkLSXLv5pC4Iz3+70sC8nP93d11yNTer5Hhns7GsHRsIooVEjB3yTeRLO9z53Gu3u2rdXDir1e79ev977t+7ZFhJD0kMMPAKKLfWb72tG6nkX9pd37i8fHWk0IhTAt67K+1lrr5/PxWlW1QB3Ppy+ZcyXrSa9WnHREhm1HJXmIl51IxBABbZqV4uGqtq6rmu21bp8Pg6qKIEWWUnjooa7tcIjQcpbPW/tLMsgynFgIoNAYTlPaTgRTva/hZrYsC9KmbVORrFQ944TXTio7n+St5PkziQR5nHLngkwWkqYSQSgU4u7IHOnnMIAoCuy1vlR1+2zc96XRkiZA7ThoKg/SatNBpzNNP7QVk8BqJzJIg9qLZIu0/vV6Z7FLu+8OkZtiOzwgp1mj5Ohe+VHWmeJ0qxBwdzMTgBGquq6ru9da3T15TIL3U9lLD3Je3I50RSTQBB1bALYj1x4JnTFbF54FwMwZUP31618APttWN7+coBoiwq6YxdMRZt7+H+n0ZZ3PZONiAAAAAElFTkSuQmCC",
+        "target": "Quick Read Area 4",
+        "match_percent": 100,
+        "wait_ms": 500,
+        "only_if_text": false,
+        "text_color": "",
+        "color_tolerance": 10,
+        "enabled": true,
+        "cooldown_seconds": 0,
+        "only_when_in_front": false,
+        "again_only_after_gone": true
+      }
+    ],
+    "pick_area_hotkey": null,
+    "freeze_while_picking": false,
+    "minimize_while_picking": true,
+    "auto_monitor": false,
+    "auto_monitor_program": "",
+    "auto_monitor_wait_seconds": 10,
+    "auto_monitor_stop_on_close": true
+  },
+  "screen": {
+    "width": 1920,
+    "height": 1080,
+    "mode": ""
+  }
+}
